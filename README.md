@@ -39,6 +39,11 @@ Please spend no more than 2-3 hours on this exercise.
     - Query the [Contentful GraphQL API](https://graphql.contentful.com/content/v1/spaces/jgxvzzx7ps77/explore?access_token=AEf7QMYxPL9rGzq0iYw8vNWzbRvGEhLrtPXHYWYYE_I) for the blog post by ID
     - Display the post title and body on the page (un-styled)
 
+## Bonus points
+
+1. Ensure a responsive layout by stacking cards on mobile
+2. Demonstrate some testing capabilities (Jest is setup in the repo)
+
 ## Discussion Points
 
 We will use your test as a basis for discussion points in the first interview. Be prepared to discuss how you would add server-side rendering for the home route, and static rendering for individual blog pages.
