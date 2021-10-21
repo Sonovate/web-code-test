@@ -24,8 +24,6 @@ Everything you need should be setup in this repo (Next.js, React, Apollo, Styled
 
 ## Instructions
 
-Please spend no more than 2-3 hours on this exercise.
-
 1. On the home route `/`:
     - Query the [Contentful GraphQL API](https://graphql.contentful.com/content/v1/spaces/jgxvzzx7ps77/explore?access_token=AEf7QMYxPL9rGzq0iYw8vNWzbRvGEhLrtPXHYWYYE_I) for the first 10 blog entries (sorted by title)
     - Implement a loading state while data is being fetched
