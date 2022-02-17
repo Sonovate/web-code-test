@@ -9,5 +9,6 @@ module.exports = {
     },
   },
   setupFilesAfterEnv: ['./jest.setup.ts'],
-  collectCoverage: true
+  collectCoverage: true,
+  testEnvironment: 'jsdom'
 };
