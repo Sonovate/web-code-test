@@ -9,6 +9,7 @@ The following exercise is designed to test your ability to:
 - Implement dynamic SPA routing
 - Deliver an A11Y compliant user interface
 - Implement a user interface from designs
+- Demonstrate scalable code architecture 
 
 ## Getting Started
 
