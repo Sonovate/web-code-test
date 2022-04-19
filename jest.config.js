@@ -5,7 +5,9 @@ module.exports = {
   globals: {
     'ts-jest': {
       babelConfig: '.babelrc',
-      tsconfig: './tsconfig.json',
+      tsconfig: {
+        "jsx": "react-jsx",
+      },
     },
   },
   setupFilesAfterEnv: ['./jest.setup.ts'],

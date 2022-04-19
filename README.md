@@ -27,7 +27,7 @@ Everything you need should be setup in this repo (Next.js, React, Apollo, Styled
 
 1. On the home route `/`:
     - Query the [Contentful GraphQL API](https://graphql.contentful.com/content/v1/spaces/jgxvzzx7ps77/explore?access_token=AEf7QMYxPL9rGzq0iYw8vNWzbRvGEhLrtPXHYWYYE_I) for the first 10 blog entries (sorted by title)
-    - Implement a loading state while data is being fetched
+    - Implement a loading state while data is being fetched (un-styled)
     - Handle potential Apollo errors appropriately (un-styled)
     - Implement a UI [matching the designs](https://www.figma.com/file/1y86C0LvrMVr5sR1G3952g/UI-Code-Test?node-id=0%3A1) to display the results
     - Ensure the UI is [A11Y compliant](https://www.a11yproject.com/checklist/)
