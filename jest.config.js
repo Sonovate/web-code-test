@@ -1,16 +1,9 @@
-const { defaults: tsjPreset } = require('ts-jest/presets');
+const nextJest = require('next/jest');
 
-module.exports = {
-  preset: 'ts-jest',
-  globals: {
-    'ts-jest': {
-      babelConfig: '.babelrc',
-      tsconfig: {
-        "jsx": "react-jsx",
-      },
-    },
-  },
+const createJestConfig = nextJest();
+
+module.exports = createJestConfig({
+  moduleDirectories: ['node_modules', '<rootDir>/'],
+  testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['./jest.setup.ts'],
-  collectCoverage: true,
-  testEnvironment: 'jsdom'
-};
+});
