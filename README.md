@@ -10,6 +10,7 @@ The following exercise is designed to test your ability to:
 - Deliver an A11Y compliant user interface
 - Implement a user interface from designs
 - Demonstrate scalable code architecture 
+- Demonstrate some testing capabilities
 
 ## Getting Started
 
@@ -37,11 +38,6 @@ Everything you need should be setup in this repo (Next.js, React, Apollo, Styled
 3. On the blog post route `/[id]`:
     - Query the [Contentful GraphQL API](https://graphql.contentful.com/content/v1/spaces/jgxvzzx7ps77/explore?access_token=AEf7QMYxPL9rGzq0iYw8vNWzbRvGEhLrtPXHYWYYE_I) for the blog post by ID
     - Display the post title and body on the page (un-styled)
-
-## Bonus points
-
-1. Ensure a responsive layout by stacking cards on mobile
-2. Demonstrate some testing capabilities (Jest is setup in the repo)
 
 ## Discussion Points
 
