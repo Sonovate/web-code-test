@@ -1,7 +1,3 @@
 export default function BlogListingPage() {
-  return (
-    <div>
-      ...
-    </div>
-  )
+  return <div>...</div>;
 }
