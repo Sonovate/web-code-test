@@ -11,6 +11,7 @@ The following exercise is designed to test your ability to:
 - Implement a user interface from designs
 - Demonstrate scalable code architecture 
 - Demonstrate some testing capabilities
+- Implement layout responsively
 
 ## Getting Started
 
