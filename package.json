@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest src",
-    "tsc:check": "tsc --noEmit --incremental false"
+    "tsc:check": "tsc --noEmit"
   },
   "engines": {
     "node": "16.14.2",

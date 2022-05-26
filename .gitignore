@@ -1,5 +1,6 @@
 .DS_Store
 .env.*
+tsconfig.tsbuildinfo
 .next/
 build/
 coverage/
