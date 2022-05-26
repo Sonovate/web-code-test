@@ -1,9 +1,9 @@
 .DS_Store
 .env.*
-tsconfig.tsbuildinfo
 .next/
 build/
 coverage/
 node_modules/
 npm-debug.log*
 out/
+tsconfig.tsbuildinfo
